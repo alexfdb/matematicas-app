@@ -6,7 +6,7 @@ App para enseñar matematicas, con explicaciones, ejercicios y examenes.
 
 ## Especificación de Actores y Operaciones
 
-<dl>Administrador: con permisos completos para gestionar la aplicación y moderar contenidos.
+<dl>Administrador: con permisos completos para gestionar la aplicación y moderar contenidos.<br><br>
     <dd>Gestionar registros</dd>
     <dd>Gestionar el contenido</dd>
     <dd>Atender el soporte tecnico</dd>
@@ -14,7 +14,7 @@ App para enseñar matematicas, con explicaciones, ejercicios y examenes.
     <dd>Mantenimiento</dd>
 </dl>
 
-<dl>Usuario: que puede crear y modificar su perfil, así como interactuar con contenidos.
+<dl>Usuario: que puede crear y modificar su perfil, así como interactuar con contenidos.<br><br>
     <dd>Registrarse</dd>
     <dd>Gestionar su perfil</dd>
     <dd>Solicitar el soporte tecnico</dd>
