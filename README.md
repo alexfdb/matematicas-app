@@ -1,6 +1,6 @@
 # Matemáticas
 
-App para enseñar matematicas, con explicaciones, ejercicios, examenes.
+App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 
 <img src="img/matematicas.drawio.png">
 
