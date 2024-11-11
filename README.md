@@ -50,7 +50,7 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Descripción | Usuario común de la app |
 | Características ||
 | Relaciones ||
-| Referencias | Registrarse, Gestionar su perfil, Solicitar el soporte tecnico, Relizar ejercicios, examinarse, Interactuar con otros usuarios |   
+| Referencias | Registrarse, Gestionar su perfil, Solicitar el soporte tecnico, Relizar ejercicios, Examinarse, Interactuar con otros usuarios |
 |  Notas ||
 | Autor | Alexander Faustino Diaz Bautista|
 |Fecha | 11/11/2024 |
@@ -66,3 +66,20 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 |  Notas ||
 | Autor | Alexander Faustino Diaz Bautista|
 |Fecha | 11/11/2024 |
+
+### Casos de uso
+
+#### Buscar libro
+
+| Caso de Uso	CU.1 | Gestionar registros |
+|---|---|
+| Fuentes ||
+| Actor | Administardor |
+| Descripción | Gestiona que los registros sean validos |
+| Flujo básico ||
+| Pre-condiciones | Que un usuario se registre |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
