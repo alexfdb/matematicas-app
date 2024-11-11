@@ -26,3 +26,43 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
     <dd><b>Validar cuenta: </b>manda un correo para validar la cuenta.</dd>
     <dd><b>Recordatorio de ejercicio: </b> Envia un recordatorio a la hora que estipule el usuario.</dd>
 </dl>
+
+## Especificación de casos de uso
+
+### Actores
+
+#### Administrador
+
+| Actor | Administrador |
+|---|---|
+| Descripción | Administrador de la app |
+| Características ||
+| Relaciones ||
+| Referencias | Gestionar registros, Gestionar el contenido, Atender al soporte tecnico, Comprobar la utilización de la app, Mantenimiento |   
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista|
+|Fecha | 11/11/2024 |
+
+#### Usuario
+
+| Actor | Usuario |
+|---|---|
+| Descripción | Usuario común de la app |
+| Características ||
+| Relaciones ||
+| Referencias | Registrarse, Gestionar su perfil, Solicitar el soporte tecnico, Relizar ejercicios, examinarse, Interactuar con otros usuarios |   
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista|
+|Fecha | 11/11/2024 |
+
+#### Sistema de notificación
+
+| Actor | Sistema de notificación |
+|---|---|
+| Descripción | Sistema que envia notificaciones |
+| Características ||
+| Relaciones ||
+| Referencias | Validar cuenta, Recordatorio de ejercicios |   
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista|
+|Fecha | 11/11/2024 |
