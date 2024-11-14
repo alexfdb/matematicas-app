@@ -71,13 +71,156 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 
 #### Buscar libro
 
-| Caso de Uso	CU.1 | Gestionar registros |
+| Caso de Uso CU.1 | Gestionar registros |
 |---|---|
 | Fuentes ||
 | Actor | Administardor |
 | Descripción | Gestiona que los registros sean validos |
 | Flujo básico ||
 | Pre-condiciones | Que un usuario se registre |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.2 | Gestionar el contenido |
+|---|---|
+| Fuentes ||
+| Actor | Administardor |
+| Descripción | actualiza, elimina o modifica contenido |
+| Flujo básico ||
+| Pre-condiciones | Que haya contenido actualizable |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.3 | Atender el soporte tecnico |
+|---|---|
+| Fuentes ||
+| Actor | Administardor |
+| Descripción | responde a las preguntas que se formulan al soprte tecnico |
+| Flujo básico ||
+| Pre-condiciones | Que haya una solicitud del usuario |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.4 | Comprobar la utilizacion de la aplicación |
+|---|---|
+| Fuentes ||
+| Actor | Administardor |
+| Descripción | revisa donde hay mas utilizcion de la aplicacion y donde menos, para optimizar el contenido |
+| Flujo básico ||
+| Pre-condiciones | Que los usuarios hayan utilizado la app |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.5 | Mantenimiento |
+|---|---|
+| Fuentes ||
+| Actor | Administardor |
+| Descripción | mantenimiento general de la aplicación |
+| Flujo básico ||
+| Pre-condiciones | Que haya contenido que requiera mantenimiento |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.6 | Registrarse |
+|---|---|
+| Fuentes ||
+| Actor | Usuario, administrador |
+| Descripción | crearse la cuenta para la app |
+| Flujo básico ||
+| Pre-condiciones | tener un correo electronico |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.7 | Gestionar su perfil |
+|---|---|
+| Fuentes ||
+| Actor | Usuario, administrador |
+| Descripción | modificar su nombre, imagen de perfil |
+| Flujo básico ||
+| Pre-condiciones | tener una cuenta |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.8 | Solicitar el soporte tecnico |
+|---|---|
+| Fuentes ||
+| Actor | Usuario |
+| Descripción | preguntar dudas al soporte tecnico |
+| Flujo básico ||
+| Pre-condiciones ||  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.9 | Utilizar las funciones de la aplicacion |
+|---|---|
+| Fuentes ||
+| Actor | Usuario, administrador |
+| Descripción | realizar ejercicios y examenes |
+| Flujo básico ||
+| Pre-condiciones ||  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.10 | Interactuar con otros usuarios |
+|---|---|
+| Fuentes ||
+| Actor | Usuario, administrador |
+| Descripción |  Chatear, retar a otros usuarios |
+| Flujo básico ||
+| Pre-condiciones | Tener a otros usuarios agregados |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.11 | Validar cuenta |
+|---|---|
+| Fuentes ||
+| Actor | Sistema de notificaciones |
+| Descripción | manda un correo para validar la cuenta |
+| Flujo básico ||
+| Pre-condiciones | que se haya creado una ueva cuenta |  
+| Post-condiciones ||  
+| Requerimientos ||
+|  Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+| Caso de Uso CU.12 | Recordatorio de ejercicio |
+|---|---|
+| Fuentes ||
+| Actor | Sistema de notificaciones |
+| Descripción | Envia un recordatorio a la hora que estipule el usuario |
+| Flujo básico ||
+| Pre-condiciones | Que el usuario haya solicitado el recordatorio |  
 | Post-condiciones ||  
 | Requerimientos ||
 |  Notas ||
