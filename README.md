@@ -7,22 +7,22 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 ## Especificación de Actores y Operaciones
 
 <dl><b>Administrador: </b> con permisos completos para gestionar la aplicación y moderar contenidos.<br><br>
-    <dd><b>Gestionar registros: </b>comprueba que los registros son correctos en cuanto al nombre y la imagen.</dd>
-    <dd><b>Gestionar el contenido: </b> actualiza, elimina o modifica contenido.</dd>
-    <dd><b>Atender el soporte tecnico: </b> responde a las preguntas que se formulan al soprte tecnico.</dd>
-    <dd><b>Comprobar la utilizacion de la aplicación: </b> revisa donde hay mas utilizcion de la aplicacion y donde menos, para optimizar el contenido.</dd>
-    <dd><b>Mantenimiento: </b> mantenimiento general de la aplicación.</dd>
+    <dd><b>Gestionar cuentas: </b>comprueba que los registros son correctos en cuanto al nombre y la imagen</dd>
+    <dd><b>Gestionar contenido: </b> actualiza, elimina o modifica contenido</dd>
+    <dd><b>Soporte tecnico: </b> responde a las preguntas que se formulan al soprte tecnico</dd>
+    <dd><b>Revisar patrones de uso: </b> revisa donde hay mas utilizcion de la aplicacion y donde menos, para optimizar el contenido</dd>
+    <dd><b>Mantenimiento: </b> mantenimiento general de la aplicación</dd>
 </dl>
 
 <dl><b>Usuario: </b> que puede crear y modificar su perfil, así como interactuar con contenidos.<br><br>
-    <dd><b>Registrarse: </b>crearse la cuenta para la app.</dd>
-    <dd><b>Gestionar su perfil: </b>modificar su nombre, imagen de perfil.</dd>
-    <dd><b>Solicitar el soporte tecnico: </b>preguntar dudas al soporte tecnico.</dd>
-    <dd><b>Utilizar las funciones de la aplicacion: </b> realizar ejercicios y examenes.</dd>
-    <dd><b>interactuar con otros usuarios: </b> chatear, retar a otros usuarios.</dd>
+    <dd><b>Gestinar su perfil: </b>crearse la cuenta para la app, modificarla, eliminarla</dd>
+    <dd><b>Solicitar soporte tecnico: </b>preguntar dudas al soporte tecnico</dd>
+    <dd><b>Ver explicaciones: </b>modificar su nombre, imagen de perfil</dd>
+    <dd><b>Realizar ejerciocios: </b> realizar ejercicios de matemáticas</dd>
+    <dd><b>Interactuar con usuarios: </b> chatear, retar a otros usuarios.</dd>
 </dl>
 
-<dl><b>Sistema de notificaciones: </b>manda mensajes a los usuarios.<br><br>
+<dl><b>Sistema: </b>realiza funciones automatizadas<br><br>
     <dd><b>Validar cuenta: </b>manda un correo para validar la cuenta.</dd>
     <dd><b>Recordatorio de ejercicio: </b> Envia un recordatorio a la hora que estipule el usuario.</dd>
 </dl>
@@ -37,8 +37,8 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 |---|---|
 | Descripción | Administrador de la app |
 | Características ||
-| Relaciones ||
-| Referencias | Gestionar registros, Gestionar el contenido, Atender al soporte tecnico, Comprobar la utilización de la app, Mantenimiento |   
+| Relaciones | Tambien puede realizar las funciones del usuario |
+| Referencias | Gestionar cuentas, Gestionar contenido, Soporte tecnico, Revisa patrones de uso, Mantenimiento |   
 |  Notas ||
 | Autor | Alexander Faustino Diaz Bautista|
 |Fecha | 11/11/2024 |
@@ -50,16 +50,16 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Descripción | Usuario común de la app |
 | Características ||
 | Relaciones ||
-| Referencias | Registrarse, Gestionar su perfil, Solicitar el soporte tecnico, Relizar ejercicios, Examinarse, Interactuar con otros usuarios |
+| Referencias | Gestionar su perfil, Solicitar soporte tecnico, Ver explicaciones, Realizar ejercicios, Interactuar con usuarios |
 |  Notas ||
 | Autor | Alexander Faustino Diaz Bautista|
 |Fecha | 11/11/2024 |
 
-#### Sistema de notificación
+#### Sistema
 
-| Actor | Sistema de notificación |
+| Actor | Sistema |
 |---|---|
-| Descripción | Sistema que envia notificaciones |
+| Descripción | Sistema que realiza funciones automatizada |
 | Características ||
 | Relaciones ||
 | Referencias | Validar cuenta, Recordatorio de ejercicios |   
@@ -69,20 +69,22 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 
 ### Casos de uso
 
-#### Buscar libro
+#### Gestionar cuentas
 
-| Caso de Uso CU.1 | Gestionar registros |
+| Caso de Uso CU.1 | Gestionar cuentas |
 |---|---|
 | Fuentes ||
 | Actor | Administardor |
-| Descripción | Gestiona que los registros sean validos |
+| Descripción | Gestiona que las cuentas sean validas |
 | Flujo básico ||
-| Pre-condiciones | Que un usuario se registre |  
+| Pre-condiciones | Que un usuario cree una cuenta |  
 | Post-condiciones ||  
-| Requerimientos ||
+| Requerimientos | Que un usuario cree una cuenta |
 |  Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
+
+#### Gestionar el contenido
 
 | Caso de Uso CU.2 | Gestionar el contenido |
 |---|---|
@@ -92,12 +94,14 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Que haya contenido actualizable |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Que haya contenido actualizable |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.3 | Atender el soporte tecnico |
+#### Soporte tecnico
+
+| Caso de Uso CU.3 | Soporte tecnico |
 |---|---|
 | Fuentes ||
 | Actor | Administardor |
@@ -105,12 +109,14 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Que haya una solicitud del usuario |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Que haya una solicitud del usuario |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.4 | Comprobar la utilizacion de la aplicación |
+#### Revisar patrones de uso
+
+| Caso de Uso CU.4 | Revisar patrones de uso |
 |---|---|
 | Fuentes ||
 | Actor | Administardor |
@@ -118,10 +124,12 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Que los usuarios hayan utilizado la app |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Que los usuarios hayan utilizado la app |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
+
+#### Mantenimiento
 
 | Caso de Uso CU.5 | Mantenimiento |
 |---|---|
@@ -131,64 +139,74 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Que haya contenido que requiera mantenimiento |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Que haya contenido que requiera mantenimiento |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.6 | Registrarse |
+#### Gestionar su cuenta
+
+| Caso de Uso CU.6 | Gestionar su cuenta |
 |---|---|
 | Fuentes ||
 | Actor | Usuario, administrador |
-| Descripción | crearse la cuenta para la app |
+| Descripción | Crea, modifica y elimina su cuenta |
 | Flujo básico ||
-| Pre-condiciones | tener un correo electronico |  
+| Pre-condiciones ||  
 | Post-condiciones ||  
 | Requerimientos ||
-|  Notas ||
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.7 | Gestionar su perfil |
-|---|---|
-| Fuentes ||
-| Actor | Usuario, administrador |
-| Descripción | modificar su nombre, imagen de perfil |
-| Flujo básico ||
-| Pre-condiciones | tener una cuenta |  
-| Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
-| Autor | Alexander Faustino Diaz Bautista |
-| Fecha | 11/11/2024 |
+#### Solicitar el soporte tecnico
 
-| Caso de Uso CU.8 | Solicitar el soporte tecnico |
+| Caso de Uso CU.7 | Solicitar el soporte tecnico |
 |---|---|
 | Fuentes ||
 | Actor | Usuario |
 | Descripción | preguntar dudas al soporte tecnico |
 | Flujo básico ||
-| Pre-condiciones ||  
+| Pre-condiciones | tener una cuenta |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | tener una cuenta |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.9 | Utilizar las funciones de la aplicacion |
+#### Ver explicaciones
+
+| Caso de Uso CU.8 | Ver explicaciones |
 |---|---|
 | Fuentes ||
 | Actor | Usuario, administrador |
-| Descripción | realizar ejercicios y examenes |
+| Descripción | Ver explicaciones matemáticas |
 | Flujo básico ||
-| Pre-condiciones ||  
+| Pre-condiciones | tener una cuenta |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | tener una cuenta |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
 
-| Caso de Uso CU.10 | Interactuar con otros usuarios |
+#### Realizar ejercicios
+
+| Caso de Uso CU.9 | Realizar ejercicios |
+|---|---|
+| Fuentes ||
+| Actor | Usuario, administrador |
+| Descripción | realizar ejercicios |
+| Flujo básico ||
+| Pre-condiciones | tener una cuenta |  
+| Post-condiciones ||  
+| Requerimientos | tener una cuenta |
+| Notas ||
+| Autor | Alexander Faustino Diaz Bautista |
+| Fecha | 11/11/2024 |
+
+#### Interactuar con usuarios
+
+| Caso de Uso CU.10 | Interactuar con usuarios |
 |---|---|
 | Fuentes ||
 | Actor | Usuario, administrador |
@@ -196,23 +214,27 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Tener a otros usuarios agregados |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Tener una cuenta|
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
+
+#### Validar cuenta
 
 | Caso de Uso CU.11 | Validar cuenta |
 |---|---|
 | Fuentes ||
-| Actor | Sistema de notificaciones |
+| Actor | Sistema |
 | Descripción | manda un correo para validar la cuenta |
 | Flujo básico ||
-| Pre-condiciones | que se haya creado una ueva cuenta |  
+| Pre-condiciones | que se haya creado una nueva cuenta |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | que se haya creado una nueva cuenta |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
+
+#### Recordatorio de ejercicio
 
 | Caso de Uso CU.12 | Recordatorio de ejercicio |
 |---|---|
@@ -222,7 +244,7 @@ App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 | Flujo básico ||
 | Pre-condiciones | Que el usuario haya solicitado el recordatorio |  
 | Post-condiciones ||  
-| Requerimientos ||
-|  Notas ||
+| Requerimientos | Que el usuario haya solicitado el recordatorio |
+| Notas ||
 | Autor | Alexander Faustino Diaz Bautista |
 | Fecha | 11/11/2024 |
