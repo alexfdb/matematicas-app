@@ -2,7 +2,7 @@
 
 App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 
-<img src="img/matematicas.drawio.png">
+<img src="docs\disenio\diagramas\diagrama.drawio.png">
 
 ## Especificación de Actores y Operaciones
 
