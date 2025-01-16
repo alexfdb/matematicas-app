@@ -2,7 +2,13 @@
 
 App para enseñar matematicas, con explicaciones, ejercicios, retos y examenes.
 
+## Diagrama principal
+
 <img src="docs\disenio\diagramas\diagrama.drawio.png">
+
+## Diagrama de packages
+
+<img src="docs/disenio/diagramas/package.drawio.png">
 
 ## Especificación de Actores y Operaciones
 
